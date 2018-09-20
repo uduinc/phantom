@@ -1,0 +1,13 @@
+exports = module.exports = {
+	mongoUrl: 'mongodb://127.0.0.1:27017/udu',
+	maxJobs: 5, // maximum number of jobs to run simultaneously -- lower this if you encounter errors relating to overloading the instance
+
+	/** OPTIONAL **/
+	logseneToken: null, // for sending logs to logsene
+	stackdriverProject: null, // for sending Stackdriver metrics
+
+	// for sending metrics to custom metrics server; only used by internal udu
+	metricsServerUrl: null,
+	metricsKey: null,
+	metricsMeta: null
+};

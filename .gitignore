@@ -1,0 +1,8 @@
+*~
+.DS_Store
+.bin
+*.log
+node_modules/*
+*.ics
+**/_ignore*
+config.js
