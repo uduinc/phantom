@@ -1,0 +1,29 @@
+{
+  "name": "phantom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uduinc/phantom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uduinc/phantom/issues"
+  },
+  "homepage": "https://github.com/uduinc/phantom#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "gcloudmon": "github:uduinc/gcloudmon",
+    "lodash": "^4.17.11",
+    "mongodb": "^2.2.36",
+    "phantomjs-prebuilt": "^2.1.16",
+    "request": "^2.88.0",
+    "winston": "^2.4.4",
+    "winston-logsene": "^1.2.5"
+  }
+}
